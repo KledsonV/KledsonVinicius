@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/global.css" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="/style/root.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Kledson Vinicius</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header-nav-container">
+        <div class="nav-title">
+          <a href="/">K<a class="second-a">V</a></a>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li>Home</li>
+            <li>Helpers</li>
+            <li>About-me</li>
+          </ul>
+        </div>
+        <div id="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="#"><li>Home</li></a>
+            <a href="#helpers"><li>Helpers</li></a>
+            <a href="#"><li>About-me</li></a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="section-home-container">
+        <div class="section-home-titles">
+          <h3>
+            Hello I'm,
+            <h1>Kledson Vinicius</h1>
+            <div class="glitch-wrapper">
+              <div class="glitch" data-text="Back-End Developer />">
+                Back-End Developer />
+              </div>
+            </div>
+          </h3>
+        </div>
+        <div class="section-home-image">
+          <img
+            src="https://www.mundodeportivo.com/urbantecno/hero/2017/10/Mr.-Robot-vuelve-en-su-tercera-temporada.jpg?width=1200&aspect_ratio=16:9"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="section-social-container">
+        <div class="social-list">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+    </section>
+    <section class="section-helpers-container">
+      <div class="helpers-container">
+        <div class="glitch-wrapper2">
+          <div class="glitch2" data-text="Helpers">Helpers</div>
+        </div>
+      </div>
+      <div class="helpers-websites" id="helpers">
+        <h3>WebSites</h3>
+        <ul id="#helpers-ul"></ul>
+      </div>
+      <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img" />
+        <div id="modal-caption">
+          <p id="modal-description"></p>
+          <a id="modal-link" href="#" target="_blank" class="button"
+            >Visite o Site</a
+          >
+        </div>
+      </div>
+    </section>
+  </body>
+
+  <script type="module" src="script/adding-helpers.js"></script>
+  <script type="module" src="script/modal.js"></script>
+</html>

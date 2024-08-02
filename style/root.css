@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap");
+
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-black-blue: #00007c;
+  --color-light-blue: #0000f8;
+  --color-black-cyan: #003e3e;
+  --color-middle-cyan: #007c7c;
+  --color-light-cyan: #00f8f8;
+}
